@@ -29,6 +29,13 @@ img {
 	background: white;
 	margin: 0 auto;
 	padding-top: 8px;
+	overflow: auto;
+}
+
+.main-content::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .side-bar {
