@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Faz amor comigo"
 date:   2008-03-20 17:16:50
 categories: poesia
