@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "Poema aleatório"
 date:   2008-04-12 17:16:50
 categories: poesia
