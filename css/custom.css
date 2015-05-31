@@ -5,7 +5,7 @@ html,body {
 
 body {
   background: #222;
-  overflow-y: hidden;
+  overflow-y: auto;
 }
 
 .site-links {
@@ -37,14 +37,12 @@ img {
 
 .container {
 	margin-bottom: 8px;
-	overflow: hidden
 }
 
 .sub-content {
 	clear: both;
 	width: inherit;
 	display: block;
-    overflow-y: scroll;
     height: 100%;=
 }
 
