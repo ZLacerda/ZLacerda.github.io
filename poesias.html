@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<h3 class="page-heading">Índice</h3>
+
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <br>
+      <span class="post-meta post-date">{{ post.date | date: "%m.%d.%Y" }}</span>
+    </li>
+  {% endfor %}
+</ul>
+
+

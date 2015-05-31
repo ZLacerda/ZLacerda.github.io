@@ -1,0 +1,16 @@
+{% include header.html %}
+<div class="main-content">
+  <div class="site-links">
+      <a href="index.html" class="menu-icon">Em destaque</a>
+      <a href="poesias.html" class="menu-icon">Índice</a>
+  </div>
+  <div class="sub-content">
+    <div class="col-md-3 side-bar">
+      {% include sidebar.html %}
+    </div>
+    <div class="col-md-9 main-bar">
+      {{ content }}
+  </div>
+</div>
+
+{% include footer.html %}

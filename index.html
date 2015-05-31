@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h3 class="page-heading">Em destaque</h3>
+  <hr>
+
+  {% assign random = site.time | date: "%s%N" | modulo: site.posts.size %}
+  <div id="random_post">
+    <h2>{{ site.posts[random].title }}</h2>
+    <p>{{ site.posts[random].content }}</p>
+  </div>
+
+</div>
