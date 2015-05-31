@@ -30,6 +30,8 @@ img {
 	margin: 0 auto;
 	padding-top: 8px;
 	overflow: auto;
+	margin-bottom: 10px;
+	padding-bottom: 20px;
 }
 
 .main-content::after {
