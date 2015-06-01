@@ -101,7 +101,10 @@ img {
 }
 
 #random_post {
-	text-align: center
+	text-align: center;
+	overflow: auto;
+	margin-bottom: 10px;
+	padding-bottom: 20px;
 }
 
 .post-date {
